@@ -38,9 +38,9 @@ This repository does not include the raw address list, the feature extraction pi
 
 ## Data availability
 
-Because the dataset is built from wallet-level on-chain behavior, it is shared on request rather than published outright. The request process isn't live yet.
+Because the dataset is built from wallet-level on-chain behavior, it is shared on request rather than published outright.
 
-**Request form: not yet available.** Once set up, a link will replace this line. In the meantime, reach out directly using the contact information below.
+**[Request the dataset](https://forms.gle/6mp9EokFkwfUrABo9).** Fill out the form and we'll follow up by email.
 
 ## Citation
 
