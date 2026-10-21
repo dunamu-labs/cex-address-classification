@@ -10,18 +10,21 @@ Centralized exchanges (CEXs) are key gateways between traditional finance and di
 ## Overview
 
 ![Overview of the CEX address classification framework with leave-one-exchange-out (LOEO) evaluation](assets/overview.png)
-Overview of the proposed CEX address classification framework with leave-one-exchange-out (LOEO) evaluation.
+
+CEX addresses are labeled from Proof-of-Reserves disclosures rather than third-party
+attribution services, since PoR materials come with reserve snapshots and, in several
+cases, signed proof of ownership. Non-CEX addresses are drawn from five sources instead
+of one: bridge interactors, lending protocol interactors, DEX liquidity pools, ENS
+registrants, and foundation wallets. Each address is scored under a leave-one-exchange-out
+split, so a model is always tested on an exchange it never saw labels from during training.
 
 ## Key results
 
-Macro PR-AUC on the held-out exchange, averaged over five address-level splits, by feature budget ($k$) and lookback window ($L$, in days):
+Macro PR-AUC on the held-out exchange, averaged over five address-level splits, by feature
+budget ($k$) and lookback window ($L$), for LightGBM against the logistic regression (LR)
+baseline:
 
-| $k$ | $L$ = 30 | $L$ = 90 | $L$ = 180 | $L$ = 365 | $L$ = 730  |
-|---|----------|----------|-----------|-----------|------------|
-| 4  | 0.6003   | 0.6491   | 0.6945    | 0.7832    | 0.9052     |
-| 8  | 0.6253   | 0.6856   | 0.7368    | 0.8178    | 0.9212     |
-| 12 | 0.6518   | 0.7256   | 0.7829    | 0.8700    | 0.9487     |
-| 17 | 0.6611   | 0.7457   | 0.8049    | 0.8875    | **0.9594** |
+![Table 3: Main LOEO performance comparison between the LR baseline and LightGBM across feature-set sizes and lookback windows, measured by macro PR-AUC with 95% CIs](assets/table3_loeo_results.png)
 
 The best configuration (17 features, 730-day lookback) reaches 0.9594, against 0.7697 for a logistic regression baseline under the same setup. Performance rises with both more features and longer history, and the lookback window matters more than the feature count at every budget size tested.
 
