@@ -24,7 +24,7 @@ Macro PR-AUC on the held-out exchange, averaged over five address-level splits, 
 budget ($k$) and lookback window ($L$), for LightGBM against the logistic regression (LR)
 baseline:
 
-![Table 3: Main LOEO performance comparison between the LR baseline and LightGBM across feature-set sizes and lookback windows, measured by macro PR-AUC with 95% CIs](assets/table3_loeo_results.png)
+![Table 3: Main LOEO performance comparison between the LR baseline and LightGBM across feature-set sizes and lookback windows, measured by macro PR-AUC with 95% CIs](assets/results.png)
 
 The best configuration (17 features, 730-day lookback) reaches 0.9594, against 0.7697 for a logistic regression baseline under the same setup. Performance rises with both more features and longer history, and the lookback window matters more than the feature count at every budget size tested.
 
