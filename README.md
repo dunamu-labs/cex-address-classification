@@ -10,7 +10,13 @@ Centralized exchanges (CEXs) are key gateways between traditional finance and di
 ## Overview
 
 ![Overview of the CEX address classification framework with leave-one-exchange-out (LOEO) evaluation](assets/overview.png)
-Overview of the proposed CEX address classification framework with leave-one-exchange-out (LOEO) evaluation.
+
+CEX addresses are labeled from Proof-of-Reserves disclosures rather than third-party
+attribution services, since PoR materials come with reserve snapshots and, in several
+cases, signed proof of ownership. Non-CEX addresses are drawn from five sources instead
+of one: bridge interactors, lending protocol interactors, DEX liquidity pools, ENS
+registrants, and foundation wallets. Each address is scored under a leave-one-exchange-out
+split, so a model is always tested on an exchange it never saw labels from during training.
 
 ## Key results
 
