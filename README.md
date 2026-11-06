@@ -43,14 +43,11 @@ Because the dataset is built from wallet-level on-chain behavior, it is shared o
 ## Citation
 
 ```bibtex
-@inproceedings{park2026onchain,
-  title     = {{O}n-{C}hain {B}ehavioral {S}ignatures for {C}lassifying {C}entralized {E}xchange {A}ddresses on {E}thereum {U}sing {P}roof-of-{R}eserves},
-  author    = {Park, Seongchan and Jeon, Hyunho and Kang, Byungsoo and Kim, Gaeun and So, Minseob and Kim, Seongyong},
-  booktitle = {Proceedings of the 7th ACM International Conference on AI in Finance},
-  year      = {2026},
-  address   = {Milan, Italy},
-  publisher = {ACM},
-  doi       = {10.1145/3858063.3858815}
+@article{park2026chain,
+  title={{O}n-{C}hain {B}ehavioral {S}ignatures for {C}lassifying {C}entralized {E}xchange {A}ddresses on {E}thereum {U}sing {P}roof-of-{R}eserves},
+  author={Park, Seongchan and Jeon, Hyunho and Kang, Byungsoo and Kim, Gaeun and So, Minseob and Kim, Seongyong},
+  journal={arXiv preprint arXiv:2610.41888},
+  year={2026}
 }
 ```
 
