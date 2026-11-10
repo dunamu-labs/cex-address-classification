@@ -1,7 +1,7 @@
 # On-Chain Behavioral Signatures for Classifying Centralized Exchange Addresses on Ethereum Using Proof-of-Reserves
 
 Accepted at the 7th ACM International Conference on AI in Finance (ICAIF '26), November
-14-17, 2026, Milan, Italy.
+14-17, 2026, Milan, Italy. The conference poster is available as [`Poster.pdf`](Poster.pdf).
 
 ## Abstract
 
