@@ -49,9 +49,7 @@ Because the dataset is built from wallet-level on-chain behavior, it is shared o
   author={Park, Seongchan and Jeon, Hyunho and Kang, Byungsoo and Kim, Gaeun and So, Minseob and Kim, Seongyong},
   booktitle={Proceedings of the 7th ACM International Conference on AI in Finance},
   pages={577--585},
-  year={2026},
-  doi={10.1145/3858063.3858815},
-  url={https://doi.org/10.1145/3858063.3858815}
+  year={2026}
 }
 ```
 
