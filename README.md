@@ -1,7 +1,8 @@
 # On-Chain Behavioral Signatures for Classifying Centralized Exchange Addresses on Ethereum Using Proof-of-Reserves
 
 Accepted at the 7th ACM International Conference on AI in Finance (ICAIF '26), November
-14-17, 2026, Milan, Italy. The conference poster is available as [`Poster.pdf`](Poster.pdf).
+14-17, 2026, Milan, Italy. The paper is available in the [ACM Digital Library](https://dl.acm.org/doi/10.1145/3858063.3858815),
+and the conference poster is available as [`Poster.pdf`](Poster.pdf).
 
 ## Abstract
 
@@ -43,11 +44,14 @@ Because the dataset is built from wallet-level on-chain behavior, it is shared o
 ## Citation
 
 ```bibtex
-@article{park2026chain,
+@inproceedings{park2026chain,
   title={{O}n-{C}hain {B}ehavioral {S}ignatures for {C}lassifying {C}entralized {E}xchange {A}ddresses on {E}thereum {U}sing {P}roof-of-{R}eserves},
   author={Park, Seongchan and Jeon, Hyunho and Kang, Byungsoo and Kim, Gaeun and So, Minseob and Kim, Seongyong},
-  journal={arXiv preprint arXiv:2610.41888},
-  year={2026}
+  booktitle={Proceedings of the 7th ACM International Conference on AI in Finance},
+  pages={577--585},
+  year={2026},
+  doi={10.1145/3858063.3858815},
+  url={https://doi.org/10.1145/3858063.3858815}
 }
 ```
 
