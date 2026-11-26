@@ -39,7 +39,7 @@ This repository does not include the raw address list, the feature extraction pi
 
 ## Data availability
 
-Because the dataset is built from wallet-level on-chain behavior, it is shared on request rather than published outright: fill out the [request form](https://forms.gle/6mp9EokFkwfUrABo9) and we'll follow up by email.
+The full dataset of 3,033,857 labeled Ethereum addresses cannot be shared publicly due to organizational and confidentiality considerations. A sample of 100 records with masked wallet addresses, which illustrates the data structure and feature representation, is available on request: fill out the [request form](https://forms.gle/6mp9EokFkwfUrABo9) and we'll follow up by email.
 
 ## Citation
 
